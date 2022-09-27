@@ -1,0 +1,28 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Fernando Morena",
+  "age": 131,
+  "email": "nando1891@email.com"
+}
+
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+###
+GET http://localhost:9000/api/users/63333c78a24611eec95d41ab HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/63333c78a24611eec95d41ab HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/63333c78a24611eec95d41ab HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Antonnio Pacheco",
+  "age": 88,
+  "email": "t8ny@email.com"
+}
